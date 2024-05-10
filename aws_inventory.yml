@@ -1,0 +1,10 @@
+---
+windows: 
+  hosts: 
+    windows-server2016:
+      ansible_host: 3.81.31.49
+      ansible_user: Administrator 
+      ansible_password: ".?WQZrL=s3INyfez=f2htL-D(E9)C2vw"
+      #ansible_ssh_private_key_file: ansible_key
+      ansible_shell_type: cmd 
+      ansible_ssh_common_args: "-o StricthostKeyChecking=no"
