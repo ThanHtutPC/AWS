@@ -1,0 +1,6 @@
+---
+- name: Ping dynamic Inventory
+  hosts: redhat 
+  tasks: 
+    - name: ping dynamic inventory 
+      ansible.builtin.ping: 
